@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>FitQuest Junior</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="/images/logo.png">
+        <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js"></script>
+    </head>
+    
+    <body>
+        <main>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <span>FitQuest Junior</span>
+                    </a>
+
+                    <div class="d-lg-none ms-auto me-3">
+                        <a href="https://auth-example-99647.web.app/#/landing" class="btn custom-btn custom-border-btn btn-naira btn-inverted">
+                            <i class="btn-icon bi-cloud-download"></i>
+                            <span>Get Started</span><!-- duplicated another one below for mobile -->
+                        </a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-auto me-lg-4">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Team</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">Discover</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="https://auth-example-99647.web.app/#/landing" class="btn custom-btn custom-border-btn btn-naira btn-inverted">
+                                <i class="btn-icon bi-cloud-download"></i>
+                                <span>Get Started</span><!-- duplicated above one for mobile -->
+                            </a>
+                        </div>
+                      
+                    </div>
+                </div>
+            </nav>
+            
+
+            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 mb-5 pb-5 pb-lg-0 mb-lg-0">
+                            <br>
+
+                            <h1 class="text-white mb-4">UNLOCKING THE FUN IN FITNESS FOR THE NEXT GENERATION</h1>
+
+                            <a href="#section_4" class="btn custom-btn smoothscroll me-3">Discover More</a>
+
+                            <a href="#section_3" class="link link--kale smoothscroll">Meet the Team</a>
+                        </div>
+
+                        <div class="hero-image-wrap col-lg-6 col-12 mt-3 mt-lg-0">
+                            <img src="images/ipad.png" width="500" height="500" class="hero-image img-fluid" alt="education online books">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="featured-section">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12">
+                            <div class="avatar-group d-flex flex-wrap align-items-center">
+                                <img src="images/team/char1.png" class="img-fluid avatar-image" alt="">
+
+                                <img src="images/team/char2.png" class="img-fluid avatar-image avatar-image-left" alt="">
+
+                                <img src="images/team/char3.png" class="img-fluid avatar-image avatar-image-left" alt="">
+
+                                <img src="images/team/char4.png" class="img-fluid avatar-image avatar-image-left" alt="">
+
+                                <div class="reviews-group mt-3 mt-lg-0">
+                                    <strong>Howdy!</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="py-lg-5"></section>
+
+
+            <section class="book-section section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <img src="images/tablet.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="book-section-info">
+                                <h6>-----------------------------</h6>
+
+
+                                <h2 class="mb-4">About Us</h2>
+
+                                <p>FitQuest Junior: A Gamified Fitness Tracker and Daily Task Recommender Application for Kids using Matching Algorithm</p>
+
+                                <p>Your Kids' Ultimate Gamified Fitness Partner with Smart Task Recommendations!</p>
+
+                                <p>See more: <a rel="nofollow" href="https://www.facebook.com/fitquestjunior" target="_blank">Facebook</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center">
+                            <h6>What's inside?</h6>
+
+                            <h2 class="mb-5">FitQuest Junior Features</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <nav id="navbar-example3" class="h-100 flex-column align-items-stretch">
+                                <nav class="nav nav-pills flex-column">
+                                    <a class="nav-link smoothscroll" href="#item-1">INTRODUCTION</a>
+
+                                    <a class="nav-link smoothscroll" href="#item-2">FEAUTURE 1: <strong>GAMIFICATION</strong></a>
+
+                                    <a class="nav-link smoothscroll" href="#item-3">FEATURE 2: <strong>DIGITAL INFANT CARE GUIDE</strong></a>
+
+                                    <a class="nav-link smoothscroll" href="#item-4">FEATURE 3: <strong>TASK RECOMMENDER</strong></a>
+
+                                </nav>
+                            </nav>
+                        </div>
+
+                        <div class="col-lg-8 col-12">
+                            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                                <div class="scrollspy-example-item" id="item-1">
+                                    <h5>INTRODUCTION</h5>
+
+                                    <p>Obesity is now the most common nutritional disorder infancy and childhood in this country and probably in the world.</p>
+
+                                    <p><strong>Childhood obesity and sedentary lifestyle</strong> | First-time parents who lack knowledge when it comes to taking care of their little ones.</p>
+
+                                    <blockquote class="blockquote">FitQuest Junior is a mobile and web application that is capable of giving tasks for kids based on the BMI status and helping parents to track their kids milestone.</blockquote>
+
+                                </div>
+
+                                <div class="scrollspy-example-item" id="item-2">
+                                    <h5>GAMIFICATION</h5>
+
+                                    <p>FitQuest Junior's "Gamification" feature enhances the fitness journey for kids through <strong>engaging game elements.</strong> It includes challenges, rewards, and interactive activities designed to motivate and inspire children to stay active and achieve their fitness goals in a fun and enjoyable way.</p>
+
+                                    <p>Overall, the "Gamification" feature in FitQuest Junior transforms fitness into a playful and rewarding experience, encouraging kids to stay active, healthy, and engaged.</p>
+
+                                    <div class="row">
+                                        <div class="col-lg-6 col-12 mb-3">
+                                            <img src="images/gamification.png" class="scrollspy-example-item-image img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-6 col-12 mb-3">
+                                            <img src="images/gamification2.png" class="scrollspy-example-item-image img-fluid" alt="">
+                                        </div>
+                                    </div>
+
+                                    <p>It inspires a sense of excitement and accomplishment, encouraging children to discover the joy of staying active and healthy while having a blast along the way.</p>
+                                </div>
+
+                                <div class="scrollspy-example-item" id="item-3">
+                                    <h5>DIGITAL INFANT CARE GUIDE</h5>
+
+                                    <p>Your duty as a parent in nurturing a  child is important comes with many challenges. FitQuest Junior remains your partner in your journey toward your child’s growth and development.</p>
+                                    <p>This health book contains guides and tips that can help you take care of your child as they grow. This can also be a tool that you and your Pediatrician can use to take note of reminders during regular checkups and consultations.</p>
+
+
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-6 col-12">
+                                            <img src="images/browser.png" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-6 col-12">
+                                            <p><strong>Baby eBook</strong></p>
+
+                                            <p>The recommendations in this health eBook are intended only as a guide for both parents/caregivers and the practitioners in the conduct of well-baby/child checkups, anticipatory care, and preventive healthcare, including immunization. These recommendations MUST NOT be regarded as absolute but as supplementary or complementary information only.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="scrollspy-example-item" id="item-4">
+                                    <h5>TASK RECOMMENDER</h5>
+
+                                    <p>FitQuest Junior's "Task Recommender" feature suggests daily activities tailored to each child's age, fitness level, and preferences. It helps kids stay engaged and motivated by providing personalized tasks that contribute to their overall health and well-being.</p>
+
+                                    <p>Not only suggests daily activities but also rewards kids with points for completing tasks. These points can be used to unlock and purchase accessories that match their preferences, adding a fun and personalized touch to their fitness journey.</p>
+
+                                    <img src="images/taskrecommender.png" class="scrollspy-example-item-image img-fluid mb-3" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="author-section section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <img src="images/likha.png" class="author-image img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                            <h6>Meet the Team</h6>
+                            
+                            <img src="images/team/hustler.jpg" class="img-fluid avatar-image" alt="">
+
+                            <img src="images/team/hipster.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
+
+                            <img src="images/team/hacker.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
+
+                            <h2 class="mb-4">Team Likha</h2>
+
+                            <p><ul>Johniel Zar G. Mendoza as the Hustler <strong>(Business Lead / Sales)</strong></ul>
+                                <ul>Steven D. Singh as the Hipster <strong>(User Experience / Design)</strong></ul>
+                                <ul>Raven Koby Temporaza as the Hacker <strong>(Software Developer)</strong></ul>
+                                </p>
+
+                            <p>Together, we are <strong>BSCS 4A</strong> students at <strong>Gordon College</strong>, collaborating on FitQuest Junior: A Gamified Fitness Tracker and Daily Task Recommender Application for Kids. Join us on this exciting journey towards healthier, happier lives for children everywhere.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="reviews-section section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mb-5">
+                            <h6>Discover</h6>
+
+                            <h2>FitQuest Junior</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="custom-block d-flex flex-wrap">
+                                <div class="custom-block-image-wrap d-flex flex-column">
+                                    <img src="images/discover1.png" class="img-fluid avatar-image" alt="">
+
+                                    <div class="text-center mt-3">
+                                        <span class="text-white">Gamified Fitness Tracker</span>
+
+                                        <strong class="d-block text-white"></strong>
+                                    </div>
+                                </div>
+
+                                <div class="custom-block-info">
+                                    <p class="mb-0">Engage kids with interactive games, challenges, and rewards for a fun fitness journey.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12 my-5 my-lg-0">
+                            <div class="custom-block d-flex flex-wrap">
+                                <div class="custom-block-image-wrap d-flex flex-column">
+                                    <img src="images/discover2.png" class="img-fluid avatar-image avatar-image-left" alt="">
+
+                                    <div class="text-center mt-3">
+                                        <span class="text-white">Digital Infant Care Guide</span>
+
+                                        <strong class="d-block text-white"></strong>
+                                    </div>
+                                </div>
+
+                                <div class="custom-block-info">
+                                    <p class="mb-0">Support parents with guides, tips, and reminders for nurturing their child's growth and development.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="custom-block d-flex flex-wrap">
+                                <div class="custom-block-image-wrap d-flex flex-column">
+                                    <img src="images/discover3.png" class="img-fluid avatar-image" alt="">
+
+                                    <div class="text-center mt-3">
+                                        <span class="text-white">Daily Task Recommender</span>
+
+                                        <strong class="d-block text-white"></strong>
+                                    </div>
+                                </div>
+
+                                <div class="custom-block-info">
+                                    <p class="mb-0">Personalized task suggestions and rewards to keep kids motivated and active every day.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="contact-section section-padding" id="section_5">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-5 col-12 mx-auto">
+                            <form class="custom-form ebook-download-form bg-white shadow" action="#" method="post" role="form">
+                                <div class="text-center mb-5">
+                                    <h2 class="mb-1">Get your Baby eBook</h2>
+                                </div>
+
+                                <div class="ebook-download-form-body">
+                                    <div class="input-group mb-4">
+                                        <input type="text" name="ebook-form-name" id="ebook-form-name" class="form-control" aria-label="ebook-form-name" aria-describedby="basic-addon1" placeholder="Your Name" required>
+
+                                        <span class="input-group-text" id="basic-addon1">
+                                            <i class="custom-form-icon bi-person"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="input-group mb-4">
+                                        <input type="email" name="ebook-email" id="ebook-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email" aria-label="ebook-form-email" aria-describedby="basic-addon2" required="">
+
+                                        <span class="input-group-text" id="basic-addon2">
+                                            <i class="custom-form-icon bi-envelope"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="col-lg-8 col-md-10 col-8 mx-auto">
+                                        <button type="submit" class="form-control">Order Now!</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <h6 class="mt-5">
+                                <p style="color:rgb(0, 0, 0);">Say hi and talk to us</p>
+                            </h6>
+
+                            <h2 class="mb-4">Contact</h2>
+
+                            <p class="mb-3">
+                                <i class="bi-geo-alt me-2"></i>
+                                Philippines, Olongapo City
+                            </p>
+
+                            <p class="mb-2">
+                                <a href="tel: 0915-471-0467" class="contact-link">
+                                    0915-471-0467
+                                </a>
+                            </p>
+
+                            <p>
+                                <a href="mailto:info@company.com" class="contact-link">
+                                    202010602@gordoncollege.edu.ph
+                                </a>
+                            </p>
+
+                            <h6 class="site-footer-title mt-5 mb-3">
+                                <p style="color:rgb(0, 0, 0);">Social</p>
+                            </h6>
+
+                            <ul class="social-icon mb-4">
+                                <!-- <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-instagram"></a>
+                                </li> -->
+
+                                <!-- <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                </li> -->
+                                
+                                <li class="social-icon-item">
+                                    <a rel="nofollow" href="https://www.facebook.com/fitquestjunior" class="social-icon-link bi-facebook" target="_blank"></a>
+                                </li>
+                                
+                                <!-- <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-whatsapp"></a>
+                                </li> -->
+                            </ul>
+
+                            <p class="copyright-text">Copyright © 2024 FitQuest Junior
+                            <br><br><a rel="nofollow" href="" target="_blank"></a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+<script>
+    // Your web app's Firebase configuration
+  const firebaseConfig = {
+        apiKey: "AIzaSyBsweRpI8GcGwtWKdjzvGLi4JrXKFggPjs",
+        authDomain: "fitquest-junior-website.firebaseapp.com",
+        projectId: "fitquest-junior-website",
+        storageBucket: "fitquest-junior-website.appspot.com",
+        messagingSenderId: "223174991921",
+        appId: "1:223174991921:web:c8c675a53ae3490b6eb510",
+        measurementId: "G-LQWMHQWDBH"
+    };
+
+    // Initialize Firebase
+    const app = firebase.initializeApp(firebaseConfig);
+    const analytics = firebase.analytics();
+</script>
+    </body>
+</html>
